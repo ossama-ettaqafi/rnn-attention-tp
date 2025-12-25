@@ -33,7 +33,6 @@ K:Emin
 |: E2 EF E2 EF | DEFG AFDF | E2 EF E2 B2 | ...
 ```
 
-**Capture d’écran :**
 ![Exemple de partition](exemple_partition.png)
 
 ---
@@ -54,7 +53,6 @@ K:Emin
   * `__len__` retourne la taille du dataset.
 * DataLoader pour train et validation (batch size = 16).
 
-**Capture d’écran d’un batch :**
 ![Exemple batch DataLoader](dataloader.png)
 
 ---
@@ -80,7 +78,6 @@ K:Emin
 * Patience pour early stopping : 3
 * Meilleur modèle sauvegardé : `best_model.pth` à l’epoch 9
 
-**Évolution de la loss :**
 ![Évolution loss](training_loss.png)
 
 **Résumé de l’entraînement :**
@@ -110,7 +107,6 @@ K:D
 
 * Longueur générée : 200 caractères
 
-**Capture d’écran de la partition générée :**
 ![Partition générée](generated_music.png)
 
 ---
